@@ -1,7 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Rochester);
 
 div {
   width:700px;
   margin: auto;
+}
+
+a {
+    color: #086A87;
+}
+
+a:visited {
+  color: rgb(86,171,200);
+}
+
+a:hover {
+  color: #0B4C5F;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 
@@ -15,18 +36,56 @@ div {
   background-color: #FFF
 }
 
+#menu {
+  width: 960px;
+  margin: 1 auto;
+  display: inline-block;
+  position: absolute;
+}
+
+#menu ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 25px;
+}
+
+#menu li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px;
+  border-right: 1px solid #222;
+}
+
+#menu a:hover {
+  color: ##99ccff;
+}
+
+#menu a.active {
+  color: #3366ff;
+}
+
+#nav li:last-child {
+  border-right: 0 10px;
+}
+
+
 body {
-  background-image: url("poly.png");
+  background-image: url("symphony.png");
   line-height: 1;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   color:#222;
 }
 
-
 h1 {
-  font-family: 'Rochester', script;
-  font-size: 75px;
+  font-family: 'Ostrich Sans', cursive;
+  text-shadow: 1.5px 1.5px #6E6E6E;
+  font-size: 115px;
+  line-height: 90%
+  letter-spacing: 3px;
+  display: inline-block;
+  margin-right: 20px;
+  padding-left: 10px;
 }
 
 a {text-decoration: none;}
@@ -38,8 +97,11 @@ li {
   line-height: 30px;
 }
 
-p,
 li {
+  line-height: 30px;
+}
+
+p, li {
   line-height: 1.5;
 }
 
@@ -72,3 +134,115 @@ strong
 .teal {
   color: rgb(86,171,200);
 }
+
+img {
+padding: 10px 10px 80px 10px;
+width: 350px;
+border: 2px solid #ccc;
+background: #FFFFFF;
+}
+
+.polaroid {
+    margin: 5em;
+    padding: 20px 20px 30px 20px
+    width: 350px;
+  }
+
+  .polaroid p {
+    margin-top: -2.5em;
+    margin-left: 5.5em;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: "Rock Salt"
+  }
+
+#firstpol {
+  transform: rotate(-5deg);
+    position: absolute;
+    left: 40px;
+    top: 170px;
+}
+
+#secondpol {
+  transform: rotate(1deg);
+  width: 350px;
+  position: absolute;
+    left: 352px;
+    top: 189px;
+}
+
+#thirdpol {
+  transform: rotate(5.5deg);
+  position: absolute;
+  left: 685px;
+  top: 205px;
+}
+
+#namecenter {
+  text-align: center;
+  color: rgb(86,171,200);
+}
+
+#menu {
+left: 35px;
+top: 130px;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+color: #000000;
+text-align: center;
+padding: 5px;
+text-transform: uppercase;
+}
+
+.photo {
+  width: 320px;
+  height: 350px;
+}
+
+
+
+
+
+#aboutpol {
+  transform: rotate(-15deg);
+  position: absolute;
+  left: 60px;
+  top: 250px;
+}
+
+#aboutpol2 {
+  transform: rotate(30deg);
+  position: absolute;
+  left: 20px;
+  top: 110px;
+}
+
+#aboutpol3 {
+  transform: rotate(-30deg);
+  position: absolute;
+  left: 0px;
+  top: 5px;
+}
+
+#aboutpol4 {
+  transform: rotate(10deg);
+  position: absolute;
+  left: 50px;
+  top: -10px;
+}
+
+
+
+.polaroid1 {
+    margin: 3em;
+    padding: 5px 4px 8px 4px
+    width: 250px;
+  }
+
+  .polaroid1 p {
+    margin-top: -2em;
+    margin-left: 2em;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: "Rock Salt"
+  }
