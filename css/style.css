@@ -19,11 +19,8 @@ a:hover {
   color: #0B4C5F;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+#contact ul {
+  list-style-type: none;
 }
 
 #aboutemily {
@@ -66,15 +63,26 @@ ul {
   background-color: #FFF;
 }
 
+#containerabout {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -250px;
+  position: relative;
+}
+
 #containterhome {
-    width: 960px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -250px;
+  position: relative;
 }
 
 
 #menu ul {
   list-style: none;
   padding-left: 0;
-  padding-top: 25px;
 }
 
 #menu li {
@@ -223,15 +231,10 @@ text-transform: uppercase;
 width: 50%;
 }
 
-
 .photo {
   width: 320px;
   height: 350px;
 }
-
-
-
-
 
 #aboutpol {
   transform: rotate(-15deg);
