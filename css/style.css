@@ -92,14 +92,15 @@ a:hover {
   font-size: 10.5pt;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 25px;
-  padding-bottom: 30px;
+  padding-top: 23px;
+  padding-bottom: 47px;
   width: 250px;
   height: 355px;
   transform: rotate(-15deg);
   font-family: 'Roboto', sans-serif;
   line-height: 20px;
 }
+
 
 #connect {
   left: 575px;
@@ -136,6 +137,14 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 11pt;
   line-height: 20px;
+}
+
+#clips {
+  font-family: 'Ostrich Sans', cursive;
+  font-size: 18pt;
+  letter-spacing: 0.4px;
+  padding-right: 160px;
+  padding-top: 10px;
 }
 
 
@@ -189,9 +198,7 @@ p {
   color: #99ccff;
 }
 
-#menu a.active {
-  color: #3366ff;
-}
+
 
 body {
   background-image: url("../img/symphony.png");
@@ -324,7 +331,7 @@ strong
   transform: rotate(5.5deg);
   position: relative;
   left: -25px;
-  top: -840px;
+  top: -838px;
 }
 
 #namecenter {
@@ -343,8 +350,9 @@ padding: 3px;
 text-transform: uppercase;
 width: 50%;
 margin-top: -30px;
-font-size: 11pt;
+font-size: 12pt;
 }
+
 
 .photo {
   width: 320px;
