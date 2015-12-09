@@ -7,6 +7,55 @@ div {
   margin: auto;
 }
 
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+
+
+
 a {
     color: #086A87;
 }
@@ -24,8 +73,8 @@ a:hover {
 }
 
 #aboutemily {
-  left: 366px;
-  top: -177px;
+  left: 362px;
+  top: -230px;
   position: fixed;
     transform: rotate(-15deg);
     font-size: 60px;
@@ -35,7 +84,7 @@ a:hover {
 
 .boxed {
   left: 430px;
-  top: -80px;
+  top: -133px;
   border: #d3d3d3 solid 2px;
   border-radius: 5px;
   background-color: #FFF;
@@ -54,7 +103,7 @@ a:hover {
 
 #connect {
   left: 575px;
-  top: 330px;
+  top: 296px;
   width: 250px;
   height: 100px;
   position: fixed;
@@ -64,16 +113,16 @@ a:hover {
       z-index:10;
 }
 .boxedconnect {
-  left: 519px;
-  top: 380px;
+  left: 514px;
+  top: 352px;
   border: #d3d3d3 solid 2px;
   border-radius: 5px;
   background-color: #FFF;
   position: fixed;
   font-size: 11pt;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 25px;
+  padding-left: 60px;
+  padding-right: 1px;
+  padding-top: 20px;
   padding-bottom: 30px;
   width: 250px;
   height: 50px;
@@ -106,7 +155,7 @@ p {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -250px;
+  margin-top: -270px;
   position: relative;
 }
 
@@ -215,12 +264,7 @@ strong
   color: rgb(86,171,200);
 }
 
-img {
-padding: 10px 10px 80px 10px;
-width: 350px;
-border: 2px solid #ccc;
-background: #FFFFFF;
-}
+
 
 .polaroid {
     margin: 5em;
@@ -230,7 +274,20 @@ background: #FFFFFF;
 
 .polaroid img {
   box-shadow: 5px 3px 3px 1px rgba(0,0,0,0.5); /* vertical horizontal blur spread color*/
+  padding: 15px 15px 80px 15px;
+  width: 300px;
+  border: 3px solid #ccc;
+  background: #FFFFFF;
 }
+
+.boxedconnect img {
+  padding: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 0px;
+  border: 0px;
+  width: 60px;
+}
+
+
 
 .portlink {
   margin-top: -2.5em;
@@ -251,7 +308,7 @@ background: #FFFFFF;
 #firstpol {
   transform: rotate(-5deg);
   position: relative;
-    left: -480px;
+    left: -485px;
     top: 180px;
 }
 
@@ -259,15 +316,15 @@ background: #FFFFFF;
   transform: rotate(1deg);
   width: 350px;
   position: relative;
-    left: -85px;
-    top: -320px;
+    left: -90px;
+    top: -330px;
 }
 
 #thirdpol {
   transform: rotate(5.5deg);
   position: relative;
-  left: -10px;
-  top: -820px;
+  left: -25px;
+  top: -840px;
 }
 
 #namecenter {
@@ -319,5 +376,5 @@ font-size: 11pt;
   transform: rotate(10deg);
   position: absolute;
   left: 50px;
-  top: -10px;
+  top: 0px;
 }
