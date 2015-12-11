@@ -176,11 +176,9 @@ p {
 
 
 #container {
-  margin-left: auto;
-  margin-right: auto;
   border: #d3d3d3 solid 2px;
   border-radius: 5px;
-  margin-top: 5px;
+  margin-top: 50px;
   margin-bottom: 10px;
   padding: 30px;
   width: 50%;
@@ -367,7 +365,7 @@ strong
   text-align: center;
   color: rgb(86,171,200);
   left: 25%;
-right: 50%;
+  right: 50%;
 }
 
 #menu {
