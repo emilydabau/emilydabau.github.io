@@ -60,7 +60,7 @@ a:hover {
 
 #aboutemily {
   left: 362px;
-  top: -230px;
+  top: -210px;
   position: fixed;
     transform: rotate(-15deg);
     font-size: 60px;
@@ -70,7 +70,7 @@ a:hover {
 
 .boxed {
   left: 430px;
-  top: -133px;
+  top: -112px;
   border: #d3d3d3 solid 2px;
   border-radius: 5px;
   background-color: #FFF;
@@ -103,7 +103,7 @@ a:hover {
 
 #connect {
   left: 575px;
-  top: 296px;
+  top: 313px;
   width: 250px;
   height: 100px;
   position: fixed;
@@ -114,7 +114,7 @@ a:hover {
 }
 .boxedconnect {
   left: 514px;
-  top: 352px;
+  top: 370px;
   border: #d3d3d3 solid 2px;
   border-radius: 5px;
   background-color: #FFF;
@@ -364,10 +364,10 @@ strong
 #namecenter {
   width: 960px;
   margin: 0 auto;
-left: 24%;
-right: 50%;
+  text-align: center;
   color: rgb(86,171,200);
-    position: absolute;
+  left: 25%;
+right: 50%;
 }
 
 #menu {
@@ -378,13 +378,12 @@ right: 50%;
   font-size: 12pt;
   background-color: #E8E8E8;
   margin-left: -10px;
-  top: 225px;
   padding-right: 50%;
   padding-left: 370px;
   padding-top: 0.03px;
   padding-bottom: 0.03px;
   border: #d3d3d3 solid 2px;
-  position: absolute;
+position: absolute;
 }
 
 
