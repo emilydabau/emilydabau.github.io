@@ -88,15 +88,16 @@ a:hover {
 }
 .boxedclips {
   opacity: 0.9;
-  padding-right: 50px;
-  padding-top: 100px;
   left: 200px;
-  top: 270px;
+  top: 280px;
+  width: 800px;
   bottom: auto;
     border: #d3d3d3 solid 2px;
     background-color: #FFF;
     z-index: -2;
     position: absolute;
+    margin: 0 auto;
+    width: 800px;
 }
 
 
