@@ -364,8 +364,10 @@ strong
 #namecenter {
   width: 960px;
   margin: 0 auto;
-  text-align: center;
+left: 25%;
+right: 50%;
   color: rgb(86,171,200);
+    position: absolute;
 }
 
 #menu {
@@ -376,6 +378,7 @@ strong
   font-size: 12pt;
   background-color: #E8E8E8;
   margin-left: -10px;
+  top: 225px;
   padding-right: 50%;
   padding-left: 370px;
   padding-top: 0.03px;
