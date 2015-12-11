@@ -97,6 +97,7 @@ a:hover {
     z-index: -2;
     position: absolute;
     width: 750px;
+    margin: 0 auto;
 }
 
 
@@ -360,12 +361,11 @@ strong
 }
 
 #namecenter {
-  width: 960px;
-  margin: 0 auto;
-  text-align: center;
   color: rgb(86,171,200);
-  left: 25%;
-  right: 50%;
+  position: relative;
+  width: 960px;
+text-align: center;
+  margin: 0 auto;
 }
 
 #menu {
@@ -377,11 +377,10 @@ strong
   background-color: #E8E8E8;
   margin-left: -10px;
   padding-right: 50%;
-  padding-left: 350px;
+  padding-left: 330px;
   padding-top: 0.03px;
   padding-bottom: 0.03px;
   border: #d3d3d3 solid 2px;
-position: absolute;
 }
 
 
