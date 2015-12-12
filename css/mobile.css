@@ -1,33 +1,11 @@
 @media (max-width: 320px) {
-#wrapper {
-  border: 0;
-  max-width: 320px;
-  margin: 0;
-  padding: 5px;
-  }
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
 body {
-      body-size: 24px;
-}
-
-
-#firstpol {
-margin-top: 0.2em;
-float: left;
-}
-
-<br />
-
-#secondpol {
-  margin-top: 0.5em;
-  float: left;
-}
-<br />
-
-#thirdpol {
-  margin-top: 0.7em;
-  float: left;
+      font-size: 12px;
+      width: 100%;
 }
 
 
