@@ -364,7 +364,7 @@ strong
 
 #namecenter {
   width: 100%;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-right: auto;
   text-align: center;
   position: relative;
@@ -379,7 +379,7 @@ strong
   font-size: 12pt;
   background-color: #E8E8E8;
   margin-left: -8px;
-  padding-right: 13px;
+  padding-left: -10px;
   padding-top: 0.03px;
   padding-bottom: 0.03px;
   border: #d3d3d3 solid 2px;
