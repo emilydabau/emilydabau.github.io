@@ -79,7 +79,7 @@ a:hover {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 22px;
-  padding-bottom: 59px;
+  padding-bottom: 63px;
   width: 250px;
   height: 355px;
   transform: rotate(-15deg);
@@ -106,7 +106,7 @@ a:hover {
 
 #connect {
   left: 575px;
-  top: 313px;
+  top: 323px;
   width: 250px;
   height: 100px;
   position: fixed;
@@ -117,7 +117,7 @@ a:hover {
 }
 .boxedconnect {
   left: 514px;
-  top: 370px;
+  top: 378px;
   border: #d3d3d3 solid 2px;
   border-radius: 5px;
   background-color: #FFF;

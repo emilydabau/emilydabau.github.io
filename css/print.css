@@ -9,7 +9,6 @@
 }
 
 @page :right {
-  @bottom-left {
     margin: 5pt 0 30pt 0;
     border-top: .25pt solid #666;
     font-size: 10pt;
