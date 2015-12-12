@@ -9,12 +9,11 @@
 }
 
 @page :right {
-    margin: 5pt 0 30pt 0;
+    margin: 5pt 10px 30px 20px;
     border-top: .25pt solid #666;
     font-size: 10pt;
     color: #333;
   }
-}
 
 #nav {display:none;}
 
