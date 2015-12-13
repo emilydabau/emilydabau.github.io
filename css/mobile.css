@@ -18,12 +18,30 @@ body {
     background: white;
     }
 
+    #content {
+    			float: none;
+    			width: 100%;
+    		}
+
+
 .polaroid {
-  width: 50%;
-  text-align: center;
+  width: 100%;
+  text-align: left;
 }
 
+h1 {
+  width: auto;
+		margin: auto;
+    min-height: 400px;
+}
 
+#containerhome {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+		}
+
+}
 
 
 }
