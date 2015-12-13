@@ -14,8 +14,10 @@
     font-size: 10pt;
     color: #333;
   }
-
-#nav {display:none;}
+  
+#menu {
+  display: none;
+}
 
 h2 {
   color: #000;
